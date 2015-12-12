@@ -6,6 +6,7 @@ find_package(catkin REQUIRED COMPONENTS roscpp std_msgs message_generation)
 INCLUDE(FindPkgConfig)
 PKG_SEARCH_MODULE(SDL2 REQUIRED sdl2)
 PKG_SEARCH_MODULE(SDL2TTF REQUIRED SDL2_ttf)
+>>>>>>> branch 'master' of https://github.com/corot/ros-keyboard.git
 set(SDL2_LIBRARIES ${SDL2_LIBRARY} ${SDL2TTF_LIBRARIES})
 set(SDL2_INCLUDE_DIRS ${SDL2_INCLUDE_DIRS} ${SDL2TTF_INCLUDE_DIRS})
 
